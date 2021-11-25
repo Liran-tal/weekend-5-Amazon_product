@@ -10,6 +10,17 @@
 }
 
 body{
-	font-size: 10px;
+	width: 100vw;
+	max-width: 1500px;
+	overflow: hidden;
+	font-size: 1vw;
 	font-family: Amazon-Ember-Medium;
+}
+
+body a{
+	text-decoration: none;
+}
+
+body a:visited{
+	color: white;
 }

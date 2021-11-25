@@ -1,0 +1,85 @@
+/* Header */
+
+.hover-border{
+	
+}
+
+/* Tool bar */
+
+.header-top-wrapper{
+	width: 100vw;
+	padding: 0.4rem 0;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	font-size: 0.8rem;
+	text-align: left;
+	color: white;
+	background-color: rgb(19, 25, 33);
+}
+
+.header-top-wrapper *{
+	border: 1px solid rebeccapurple;
+	
+}
+
+/* tool bar */
+
+.bold-text{
+	font-size: larger;
+}
+
+/* logo */
+
+.logo{
+	padding: 0.4rem 1rem;
+	width: 10rem;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo:hover {
+	border: 0.1rem solid white;
+}
+
+.logo-img{
+	background: url('../assets/imgs/icons/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -51px;
+	background-size: 350px 450px;
+	width: 96px;
+	height: 29px;
+}
+
+/* Location */
+
+.location{
+	margin: 0 0.4rem;
+	display: flex;
+	align-items: center;
+}
+
+
+.geo-icon{
+	align-self: flex-end;
+	padding-bottom: 0.2rem;
+	background: url('../assets/imgs/icons/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png') no-repeat -69px -379px;
+	background-size: 350px 450px;
+	width: 20px;
+	height: 21px;
+}
+
+.location-text-wrapper p{
+	padding: 0.1rem 0.2rem;
+}
+
+.location-text-top{
+	color: rgb(204, 204, 204);
+}
+
+/* search-bar */
+
+.search-bar{
+	display: flex;
+}
+
