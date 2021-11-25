@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Amazon-Ember-Medium;
+	src: url(../assets/fonts/Amazon-Ember-Medium.ttf);
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -6,4 +11,5 @@
 
 body{
 	font-size: 10px;
+	font-family: Amazon-Ember-Medium;
 }
