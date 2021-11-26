@@ -199,4 +199,32 @@
 	border-top-color: rgb(218, 218, 218);
 }
 
+/* Cart */
+
+.cart {
+	height: 80%;
+	padding: 0 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+
+.cart-img-wrapper {
+	height: 80%;
+	width: fit-content;
+}
+
+.cart-count{
+	font-weight: 700;
+	color: rgb(240, 136, 4);
+	cursor: pointer;
+}
+
+.cart-img {
+	background: url('../assets/imgs/icons/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -340px;
+	background-size: 350px 450px;
+	width: 38px;
+	height: 26px;
+}
 
