@@ -177,3 +177,17 @@
 	margin: 4px 0 4px 6px;
 	cursor: pointer;
 }
+
+/* Information Paragraphs */
+
+.product-info-text-list {
+	margin-top: 8px;
+	margin-inline-start: 18px;
+	margin-block-end: 4px;
+	color: rgb(15, 17, 17);
+	font-size: 0.88rem;
+}
+
+.product-info-text-list li{
+	padding: 0.2rem 0;
+}
