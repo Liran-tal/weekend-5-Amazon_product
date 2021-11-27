@@ -109,7 +109,7 @@
 	display: flex;
 	align-items: center;
 	margin-top: 0.3rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.3rem;
 	cursor: pointer;
 }
 
@@ -124,3 +124,32 @@
 	padding: 0 0.3rem;
 	color: rgb(6, 125, 98);
 }
+
+/* Size Choise */
+
+.size-btn {
+	height: 1.9rem;
+	width: 6rem;
+	margin: 0.8rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.85rem;
+	color: rgb(15, 17, 17);
+	background-color: rgb(240, 242, 242);
+	border: 1px solid rgb(213, 217, 217);
+	border-radius: 7px;
+	box-shadow: rgba(15, 17, 17, 0.15) 0px 2px 5px 0px;
+	cursor: pointer;
+}
+
+.size-btn:hover {
+	filter: brightness(90%);
+}
+
+.size-btn-text{
+	margin-right: 0.5rem;
+}
+
+/* Color Choise */
+
