@@ -10,8 +10,8 @@
 }
 
 body{
-	width: 100vw;
-	overflow: hidden;
+	width: 99vw;
+	overflow-x: hidden;
 	font-size: 1vw;
 	min-width: 1000px;
 	max-width: 1600px;
