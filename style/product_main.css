@@ -34,6 +34,11 @@
 	cursor: pointer;
 }
 
+.product-pics-wrap .thumbnail-img:hover{
+	border-color: rgb(231, 118, 0);
+	box-shadow: rgba(228, 121, 17, 0.5) 0px 0px 3px 2px;
+}
+
 .product-big-pic-wrap{
 	height: 100%;
 	width: 100%;
