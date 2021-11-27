@@ -292,3 +292,18 @@ header{
 /* ***** */
 /* Main */
 /* ***** */
+
+/* Black friday banner */
+
+.pixelated-banner-wrap {
+	width: 100vw;
+	height: 3rem;
+}
+
+.pixelated-banner-wrap a{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
