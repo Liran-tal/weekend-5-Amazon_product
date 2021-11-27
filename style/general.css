@@ -23,6 +23,6 @@ body a{
 }
 
 body a:visited{
-	color: inherit;
+	color: currentColor;
 }
 
