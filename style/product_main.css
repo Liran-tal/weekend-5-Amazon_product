@@ -17,7 +17,6 @@
 
 .product-pics-wrap{
 	width: 26.5rem;
-	border: 1px solid red;
 	margin-right: 12px;
 	display: flex;
 }
@@ -38,9 +37,24 @@
 .product-big-pic-wrap{
 	height: 100%;
 	width: 100%;
+	padding-left: 0.3rem;
+	text-align: center;
 }
 
+.product-big-pic{
+	width: 100%;
+	height: calc(100% - 32px);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 12px;
+}
 
+.product-big-pic img{
+	height: 100%;
+	width: 100%;
+}
 
 /* Product Information */
 
@@ -214,7 +228,7 @@
 /* Right Column */
 
 .right-col {
-	width: 16.5%;
+	width: 32%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
