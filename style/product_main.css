@@ -108,12 +108,19 @@
 .true-size-wrap{
 	display: flex;
 	align-items: center;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+	cursor: pointer;
 }
 
 .v-sprite {
 	background: url('../assets/imgs/icons/McBZv0ZvnbehkIx.png') no-repeat -345px -480px;
 	width: 15px;
 	height: 15px;
+	margin-right: 0.1rem;
 }
 
-
+.true-size-text{
+	padding: 0 0.3rem;
+	color: rgb(6, 125, 98);
+}
