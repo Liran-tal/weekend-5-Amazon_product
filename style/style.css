@@ -126,7 +126,7 @@ header{
 }
 
 .search-bar input[type=search]{
-	width: 50vw;
+	width: 49vw;
 	font-size: 1.1rem;
 	font-weight: 400;
 	border-color: transparent;
